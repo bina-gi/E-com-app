@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
-import "./homepage.style.scss";
-import Menus from "../menu-item/menu-item";
+import "./styles/homepage.style.scss";
+import Menus from "../component/menu-item/menu-item";
 
-class Homepage extends Component {
+class Home extends Component {
   constructor() {
     super();
     this.state = {
@@ -50,4 +49,4 @@ class Homepage extends Component {
     );
   }
 }
-export default Homepage;
+export default Home;
